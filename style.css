@@ -4,6 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
+    background-color: #F5F5DC;
   }
 
   
@@ -11,6 +12,16 @@
     margin: 0 auto;
     max-width: 1440px;
   }
+
+  .menu-link {
+    margin-top: 15px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+  
 
   .main-photo {
     border-radius: 100px;
@@ -64,12 +75,10 @@
     margin-top: 10px;
   }
 
-  /* right left */
+  .right-side--title {
+    background-color: #F5F5DC;
+  }
 
-  /* h1 .right-side--title{
-    display: block;
-    text-align: center;
-  } */
   .main-title {
     margin-top: 40px;
     display: flex;
@@ -109,6 +118,10 @@
     margin-top: 20px;
   }
 
+  .project_img {
+    width: 200px;
+  }
+
   .footer {
     display: flex;
     justify-content: space-around;
@@ -122,6 +135,7 @@
     list-style: none;
     display: flex;
     font-size: 20px;
+    font-weight: 600;
   }
 
   .footer-link ul li a{
@@ -133,5 +147,3 @@
   h2 {
     background-color: #f4c430;
   }
-
-
