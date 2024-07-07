@@ -94,49 +94,19 @@
 
                     <div class="code">
                         <pre>
-                        // арифметические выражения преобразуются к числу
-                        1 / 2
-                        i++
-                        i -= 2
-                        i * 2
-                        
-                        // строковые - к строке
-                        "привет, " + "мир"
-                        'hello, ' += 'world'
-                        
-                        // логические - к булеву значению
-                        a && b
-                        a || b
-                        !a
-                        
-                        // литералы, переменные, константы - это тоже выражения
-                        2
-                        0.02
-                        'something'
-                        true
-                        false
-                        this 
-                        undefined
-                        i
-                        
-                        // как и некоторые ключевые слова
-                        function
-                        class
-                        function* 
-                        yield 
-                        /pattern/i
-                        () // группирующие скобки
-                        
-                        // выражения создания и инициализации
-                        []
-                        {a: 1, b: 2}
-                        new Person()
-                        function() {}
-                        a => a
-                        
-                        // выражения вызова функций и методов
-                        Math.paw(2, 3)
-                        window.resize()</pre>
+                            let answers = [];
+                                questions = [
+                                    'What is your name?',
+                                    'Who are you by profession?',
+                                    'Where do you work?'
+                                ];
+
+                            for(let i = 0; i < questions.length; i++){
+                                answers[i] = prompt(questions[i]);
+                            }
+
+                            document.write(answers);
+                        </pre>
                     </div>
 
                     <div class="project">
